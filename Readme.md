@@ -1,4 +1,4 @@
-# Todo - Task Manager
+# Task Manager
 
 Task Manager is a demo app using Vanilla JS, Bootstrap, Node.js, Express
 
