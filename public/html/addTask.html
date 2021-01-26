@@ -1,0 +1,32 @@
+<div id="add-task-modal" class="modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Add Task</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close" onClick="toggleTaskDialog()">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="form-group row">
+              <label for="taskName" class="col-sm-2 col-form-label">Name</label>
+              <div class="col-sm-10">
+                <input type="text" class="form-control" id="taskName" placeholder="New Task" value="title">
+              </div>
+            </div>
+            <div class="form-group row">
+              <label for="taskDescription" class="col-sm-2 col-form-label"></label>
+              <div class="col-sm-10">
+                <textarea class="form-control" id="taskDescription" placeholder="Something to do">Some task</textarea>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal" onClick="toggleTaskDialog()">Close</button>
+          <button type="button" id="" class="btn btn-primary" onClick="saveTask()">Save</button>
+        </div>
+      </div>
+    </div>
+  </div>
